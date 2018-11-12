@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.ckstudent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>    
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="com.android.ckstudent.permission.MAPS_RECEIVE"/>
+	<uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+	<permission
+	        android:name="com.android.ckstudent.permission.MAPS_RECEIVE"
+	        android:protectionLevel="signature"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyCmPy-YJgLPHiXz2b8fYhr6O4liGqVaSY0"/>
+		<meta-data
+		    android:name="com.google.android.gms.version"
+		    android:value="@integer/google_play_services_version"/>
+        <activity
+            android:name="com.android.ckstudent.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MenuActivity"></activity>
+        <activity android:name="MenuActivityS"></activity>
+        <activity android:name="SelectListActivity"></activity>
+        <activity android:name="CallActivity"></activity>
+        <activity android:name="AssociationActivity"></activity>
+        <activity android:name="FestivalFragment"></activity>
+        <activity android:name="AssociationFragment"></activity>
+        <activity android:name="FavoriteFragment"></activity>
+        <activity android:name="FestivalContent"></activity>
+        <activity android:name="ClubContent"></activity>
+        <activity android:name="CourseTableActivity"></activity>
+        <activity android:name="TodoActivity"></activity>
+        <activity android:name="TaskDetailActivity"></activity>
+        <activity android:name="SelectModeActivity"></activity>
+        <activity android:name="CallBTActivity"></activity>
+        <activity android:name="CallRandomActivity"></activity>
+        <activity android:name="PresentationRateActivity"></activity>
+        <activity android:name="AssignmentActivity"></activity>
+        <activity android:name="AssignmentDetailActivity"></activity>
+        <activity android:name="AssignmentNewActivity"></activity>
+        <activity android:name="CallRateActivity"></activity>
+        <activity android:name="PresentationActivity"></activity>
+        <activity android:name="StudentListActivity"></activity>
+        <activity android:name="StudentBTActivity"></activity>
+        <activity android:name="AssignmentStudentActivity"></activity>
+        <activity android:name="PosterPagerActivity"></activity>
+        <activity android:name="TalkStudentActivity"></activity>
+        <activity android:name="StudentRequestActivity"></activity>
+        <activity android:name="TalkTeacherActivity"></activity>
+        <activity android:name="MapActivity"></activity>
+        <service android:name="GeofenceIntentService"></service>
+    </application>
+
+</manifest>

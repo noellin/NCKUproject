@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/bg" >
+
+   <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/communication"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.21"
+        android:focusedMonthDateColor="#111111"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:selectedWeekBackgroundColor="#00005DBE"
+        android:showWeekNumber="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+            
+     		<TextView
+        		android:id="@+id/textView1"
+       		    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/Duration"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+			<EditText
+			    android:id="@+id/editText2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:ems="10"
+			    android:inputType="time" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+            
+        	<TextView
+          		android:id="@+id/textView2"
+           	 	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/InputDuration"
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+            <EditText
+            	android:id="@+id/editText1"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:gravity="center"
+            	android:ems="10"
+            	android:inputType="number" />
+
+        </LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

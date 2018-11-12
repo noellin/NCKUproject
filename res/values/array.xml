@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations">
+        <item >National Cheng Kung University</item>
+		<item >Banyan Tree Park</item>
+		<item >NCKU Lake</item>
+		<item >NCKU Museum</item>
+		<item >NCKU Books Department</item>
+		<item >Qiong Li Zhi Zhi Memorial Arch</item>
+		<item >Green Magic School</item>
+		<item >NCKU Library</item>
+		<item >Small Western Gate</item>
+		<item >NCKU Hospital</item>
+		<item >Da-Tung Night Market</item>
+        <item >Flower Night Market</item>
+
+    </string-array>
+    <string-array name="latitudes">
+        <item >22.996726</item>
+   		<item >23.000160</item>
+   		<item >23.000214</item>
+   		<item >22.996726</item>
+   		<item >22.995222</item>
+   		<item >22.996232</item>
+   		<item >23.001486</item>
+   		<item >22.999819</item>
+   		<item >22.999644</item>
+   		<item >23.001911</item>
+   		<item >22.982832</item>
+        <item >23.011586</item>
+
+                                
+    </string-array>
+    <string-array name="longitudes">
+        <item >120.216712</item>
+        <item >120.216105</item>
+        <item >120.217289</item>
+        <item >120.219593</item>
+        <item >120.219453</item>
+        <item >120.218343</item>
+        <item >120.215956</item>
+        <item >120.21985</item>
+        <item >120.218123</item>
+        <item >120.216814</item>
+        <item >120.218807</item>
+        <item >120.200522</item>
+
+ 
+    </string-array>
+    <string-array name="images">
+        <item >ncku</item>
+        <item >banyantree</item>
+        <item >lake</item>
+        <item >museum</item>
+        <item >books</item>
+        <item >memorial</item>
+        <item >green</item>
+        <item >Library</item>
+        <item >Gate</item>
+        <item >Hospital</item>
+        <item >da_tung</item>
+        <item >flower</item>
+
+    </string-array>
+    <string-array name="descriptions">
+        <item >It is the number 1 university in southern Taiwan.</item>
+        <item >Campus of the most eye-catching big banyan tree, an important landmark for the school.</item>
+        <item >NCKU Lake, a beautiful environment.</item>
+        <item >Taiwans first university museum raised.</item>
+        <item >Provide various types of professional books.</item>
+        <item >Meaning to read all the documents and things in principle rule summarized rational knowledge.</item>
+        <item >"Zero energy buildings' academic achievements and the most beautiful buildings.</item>
+        <item >Offers a variety of books to borrow and information services.</item>
+        <item >Jingbo Gate, Tainan among the fourteen gates of the small Western Gate.</item>
+        <item >the highest level of "medical center" one of the hospitals</item>
+        <item >It is one of the most famous night markets in Tainan city.</item>
+        <item >Flower Night Market as the most indicative of the night market in Tainan.</item>
+
+        
+    </string-array>
+    
+</resources>

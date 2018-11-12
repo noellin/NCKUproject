@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/loc_ncku" android:title="@string/loc_ncku" android:titleCondensed="NCKU"></item>
+	<item android:id="@+id/loc_banyan_tree_park" android:title="@string/loc_banyan_tree_park" android:titleCondensed="Banyan"></item>
+	<item android:id="@+id/loc_ncku_lake" android:title="@string/loc_ncku_lake" android:titleCondensed="Lake"></item>
+	<item android:id="@+id/loc_ncku_museum" android:title="@string/loc_ncku_museum" android:titleCondensed="Museum"></item>
+	<item android:id="@+id/loc_ncku_books_department" android:title="@string/loc_ncku_books_department" android:titleCondensed="Books"></item>
+	<item android:id="@+id/loc_qiong_li_zhi_zhi_memorial_arch" android:title="@string/loc_qiong_li_zhi_zhi_memorial_arch" android:titleCondensed="Memorial"></item>
+	<item android:id="@+id/loc_green_magic_school" android:title="@string/loc_green_magic_school" android:titleCondensed="Green"></item>
+	<item android:id="@+id/loc_ncku_library" android:title="@string/loc_ncku_library" android:titleCondensed="Library"></item>
+	<item android:id="@+id/loc_small_western_gate" android:title="@string/loc_small_western_gate" android:titleCondensed="Gate"></item>
+	<item android:id="@+id/loc_ncku_hospital" android:title="@string/loc_ncku_hospital" android:titleCondensed="Hospital"></item>
+	<item android:id="@+id/loc_da_tung_market" android:title="@string/loc_da_tung_market" android:titleCondensed="Da-Tung"></item>
+    <item android:id="@+id/loc_flower_night_market" android:title="@string/loc_flower_night_market" android:titleCondensed="Flower"></item>
+</menu>
